@@ -3,7 +3,7 @@ const http = require('http');
 const { Buffer } = require('buffer');
 const { exec, execSync } = require('child_process');     
                                                       // 填写变量测试正常后，全选代码到 https://obfuscator.io 全局混淆保存部署
-const UUID = process.env.UUID || '606e39fd-2651-4ad5-ae9d-fb2ac1901f88'; // UUID
+const UUID = process.env.UUID || '33b60f4f-33b4-4998-beea-eddd1bdb3be2'; // UUID
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';       // v0哪吒面板域名：例如：nezha.xxx.com
 const NEZHA_PORT = process.env.NEZHA_PORT || '';           // v0的agent端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             // v0的agent端口  
