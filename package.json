@@ -2,7 +2,7 @@
   "name": "nodejs-x",
   "version": "1.0.0",
   "description": "node",
-  "author": "eooce",
+  "author": "reo",
   "license": "MIT",
   "private": false,
   "main": "app.js",
