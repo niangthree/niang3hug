@@ -9,7 +9,7 @@ const NEZHA_PORT = process.env.NEZHA_PORT || '';           // v0的agent端口�
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             // v0的agent端口  
 const SUB_PATH = process.env.SUB_PATH || 'sub';            // 节点订阅路径
 const XPATH = process.env.XPATH || UUID.slice(0, 8);       // 节点路径
-const DOMAIN = process.env.DOMAIN || 'xxx.abc-hf.space';   // 必填项，hug分配的域名或workers反代后的域名,例如：xxx.abc-hf.space 
+const DOMAIN = process.env.DOMAIN || 'niangthree-xwangdoc.hf.space';   // 必填项，hug分配的域名或workers反代后的域名,例如：xxx.abc-hf.space 
 const NAME = process.env.NAME || 'Hf';                     
 const PORT = process.env.PORT || 7860;                     
 
