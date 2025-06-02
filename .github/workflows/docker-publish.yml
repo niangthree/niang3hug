@@ -17,7 +17,7 @@ jobs:
         run: echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u niangthree --password-stdin
 
       - name: Build Docker image
-        run: docker build . -t ghcr.io/niangthree/xwang-http:latest
+        run: docker build . -t ghcr.io/niangthree/fenchattp-wang:latest
 
       - name: Push Docker image
-        run: docker push ghcr.io/niangthree/xwang-http:latest
+        run: docker push ghcr.io/niangthree/fenchattp-wang:latest
